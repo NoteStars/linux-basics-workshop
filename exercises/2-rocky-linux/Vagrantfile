@@ -1,4 +1,3 @@
-
 Vagrant.configure("2") do |config|
 
   # Use Rocky Linux 9
@@ -7,9 +6,21 @@ Vagrant.configure("2") do |config|
   # Set the virtual machine hostname
   config.vm.hostname = "rocky-linux-server"
 
+  # SSH configuration
+  config.vm.network "forwarded_port",
+    guest: 22,
+    host: 2202,
+    host_ip: "127.0.0.1",
+    id: "ssh",
+    auto_correct: true
+
+  # Boot and SSH timeouts
+  config.vm.boot_timeout = 300
+  config.ssh.connect_timeout = 30
+
   # Configure VirtualBox resources
   config.vm.provider "virtualbox" do |vb|
-    vb.name = "Rocky-Linux-9"
+    vb.name = "Linux-Basics-Workshop-Rocky"
     vb.memory = 2048
     vb.cpus = 2
   end
