@@ -99,7 +99,7 @@ These scripts configure repository permissions for your operating system.
 
 | Script | Operating System |
 |---|---|
-| `repo-permissions-linux-macos.sh` | Linux / macOS |
+| `repo-permissions-linux-macos.sh` | Linux or macOS |
 | `set-windows-permissions.ps1` | Windows |
 
 ## Usage
