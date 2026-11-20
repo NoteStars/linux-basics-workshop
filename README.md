@@ -1,4 +1,4 @@
-# linux-basics-workshop
+# 🐧 linux-basics-workshop
 Start your own Linux VM and play with it! This Vagrantfile would help you start own your VM via Oracle VirtualBox. 
 
 ## Cloning this Repository
