@@ -1,12 +1,12 @@
 ## Troubleshooting
 
 ## Commands
-`vagrant up` - Create and start the virtual machine. Starts an Ubuntu 24.04 environment.
-`vagrant status` Check the VM's current status.
-`vagrant ssh` Connect to the Ubuntu virtual machine.
-`exit` Disconnect from the virtual machine.
-`vagrant halt` Shutdown the virtual machine.
-`vagrant destroy` - Delete the virtual machine. 
+* `vagrant up` - Create and start the virtual machine. Starts an Ubuntu 24.04 environment.
+* `vagrant status` Check the VM's current status.
+* `vagrant ssh` Connect to the Ubuntu virtual machine.
+* `exit` Disconnect from the virtual machine.
+* `vagrant halt` Shutdown the virtual machine.
+* `vagrant destroy` - Delete the virtual machine. 
 
 ### Permission and Ownership Issues
 
