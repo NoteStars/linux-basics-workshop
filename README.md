@@ -25,3 +25,6 @@ Virtual machine configuration
 - 4 GB RAM
 - 2 CPU cores
 - Ubuntu user with sudo privileges
+
+## AI assistance disclaimer
+The Vagrantfiles are generated with AI. If you do spot out any issues, please open an Issue request. 
