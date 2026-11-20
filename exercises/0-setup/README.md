@@ -55,7 +55,7 @@ Follow the instructions for your Linux distribution.
 ### 2. Install Vagrant
 
 1. Visit the [Vagrant Installation Guide](https://developer.hashicorp.com/vagrant/install).
-2. Download the Windows installer.
+2. Under Windows -> Binary download -> *AMD64 Download for 64 bit-PCs* or *I686 for 32-bit PCs Only*
 3. Run the installer.
 4. Follow the installation wizard.
 5. Restart your terminal if prompted.
