@@ -1,17 +1,6 @@
 
 
-# 0 - Environment Setup
-
-Before starting the Linux Basics workshop, install:
-
-- [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-- [HashiCorp Vagrant](https://developer.hashicorp.com/vagrant/install)
-
-Install VirtualBox first, followed by Vagrant.
-
----
-
-## Choose Your Operating System
+## 0. Choose Your Operating System
 
 <details>
 <summary><strong>🐧 Linux</strong></summary>
@@ -89,7 +78,7 @@ Alternatively, use the [Vagrant Installation Guide](https://developer.hashicorp.
 
 ---
 
-## Verify Installation
+## 3. Verify Installation
 
 Open your terminal or PowerShell and run:
 
@@ -102,7 +91,7 @@ If Vagrant displays its installed version, the installation was successful!
 You are now ready to start the workshop.
 
 
-## Repository Permissions Setup
+## 4. Repository Permissions Setup
 
 These scripts configure repository permissions for your operating system.
 
