@@ -102,19 +102,9 @@ These scripts configure repository permissions for your operating system.
 | `repo-permissions-linux-macos.sh` | Linux or macOS |
 | `set-windows-permissions.ps1` | Windows |
 
-## Use Command
-
-### Linux / macOS
+<details>
+<summary>Linux</summary>
 
 ```bash
 chmod +x repo-permissions-linux-macos.sh
-./repo-permissions-linux-macos.sh
-```
-
-### Windows (PowerShell)
-
-```powershell
-.\set-windows-permissions.ps1
-```
-
-**Note:** Linux/macOS uses `chown` to change ownership, while Windows uses `icacls` to configure file permissions.
+./repo-permissions-linux-macos
