@@ -1,0 +1,24 @@
+Vagrant.configure("2") do |config|
+
+  config.vm.box = "bento/ubuntu-24.04"
+
+  config.vm.hostname = "linux-workshop"
+
+  config.vm.provider "virtualbox" do |vb|
+    vb.name = "Linux-Basics-Workshop"
+    vb.memory = 4096
+    vb.cpus = 2
+  end
+
+  config.vm.provision "shell", inline: <<-SHELL
+    id ubuntu &>/dev/null || useradd -m -s /bin/bash ubuntu
+
+    echo "ubuntu:ubuntu" | chpasswd
+
+    usermod -aG sudo ubuntu
+
+    echo "ubuntu ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/ubuntu
+    chmod 440 /etc/sudoers.d/ubuntu
+  SHELL
+
+end
