@@ -1,81 +1,78 @@
 
+
 # 0 - Environment Setup
 
-Before starting the workshop, install the following software:
+Before starting the Linux Basics workshop, install:
 
-1. [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads) - Creates and runs virtual machines.
-2. [HashiCorp Vagrant](https://developer.hashicorp.com/vagrant/install) - Automates virtual machine setup and configuration.
+- [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+- [HashiCorp Vagrant](https://developer.hashicorp.com/vagrant/install)
 
 Install VirtualBox first, followed by Vagrant.
 
 ---
 
-## Linux
+## Choose Your Operating System
+
+<details>
+<summary><strong>🐧 Linux</strong></summary>
 
 ### 1. Install VirtualBox
 
-Download VirtualBox for your Linux distribution:
+Visit the [VirtualBox Linux Downloads](https://www.virtualbox.org/wiki/Linux_Downloads) page.
 
-https://www.virtualbox.org/wiki/Linux_Downloads
+Alternatively, install using your package manager.
 
-Alternatively, use your distribution's package manager.
-
-For Ubuntu/Debian:
+**Ubuntu/Debian:**
 
 ```bash
 sudo apt update
 sudo apt install virtualbox
 ```
 
-For Fedora/RHEL/Rocky Linux:
+**Fedora/RHEL/Rocky Linux:**
 
-```bash
-sudo dnf install VirtualBox
-```
+Follow the [official Linux installation guide](https://www.virtualbox.org/wiki/Linux_Downloads).
 
 ### 2. Install Vagrant
 
-Follow the official installation instructions:
+Visit the [Vagrant Installation Guide](https://developer.hashicorp.com/vagrant/install).
 
-https://developer.hashicorp.com/vagrant/install
+Follow the instructions for your Linux distribution.
 
-For Ubuntu/Debian, use the HashiCorp APT repository instructions.
+</details>
 
-For Fedora/RHEL, use the HashiCorp RPM repository instructions.
-
----
-
-## Windows
+<details>
+<summary><strong>🪟 Windows</strong></summary>
 
 ### 1. Install VirtualBox
 
-1. Visit https://www.virtualbox.org/wiki/Downloads
+1. Visit [VirtualBox Downloads](https://www.virtualbox.org/wiki/Downloads).
 2. Download the Windows installer.
-3. Open the downloaded installer.
+3. Open the installer.
 4. Follow the installation wizard.
 5. Restart your computer if prompted.
 
 ### 2. Install Vagrant
 
-1. Visit https://developer.hashicorp.com/vagrant/install
+1. Visit the [Vagrant Installation Guide](https://developer.hashicorp.com/vagrant/install).
 2. Download the Windows installer.
 3. Run the installer.
 4. Follow the installation wizard.
-5. Restart your terminal or computer if prompted.
+5. Restart your terminal if prompted.
 
----
+</details>
 
-## macOS
+<details>
+<summary><strong>🍎 macOS</strong></summary>
 
 ### 1. Install VirtualBox
 
-1. Visit https://www.virtualbox.org/wiki/Downloads
+1. Visit [VirtualBox Downloads](https://www.virtualbox.org/wiki/Downloads).
 2. Download the appropriate installer for your Mac:
    - Intel Mac
-   - Apple Silicon Mac (M1, M2, M3, M4, etc.)
-3. Open the downloaded `.dmg` file.
-4. Run the VirtualBox installer.
-5. Follow the installation instructions.
+   - Apple Silicon Mac
+3. Open the downloaded installer.
+4. Follow the installation instructions.
 
 ### 2. Install Vagrant
 
@@ -86,27 +83,23 @@ brew tap hashicorp/tap
 brew install hashicorp/tap/hashicorp-vagrant
 ```
 
-Alternatively, download the installer from:
+Alternatively, use the [Vagrant Installation Guide](https://developer.hashicorp.com/vagrant/install).
 
-https://developer.hashicorp.com/vagrant/install
+</details>
 
 ---
 
 ## Verify Installation
 
-Open your terminal (PowerShell on Windows) and run:
-
-```bash
-virtualbox --help
-```
+Open your terminal or PowerShell and run:
 
 ```bash
 vagrant --version
 ```
 
-If Vagrant displays its installed version, the installation was successful.
+If Vagrant displays its installed version, the installation was successful!
 
-You are now ready to start the workshop!
+You are now ready to start the workshop.
 
 
 ## Repository Permissions Setup
