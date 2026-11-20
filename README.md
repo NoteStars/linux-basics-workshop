@@ -5,6 +5,10 @@ Start your own Linux VM and play with it! This Vagrantfile would help you start 
 This GitHub repository is a work in progress and considered **BETA.** Please do not expect everything to work out of the box. If you have any issues, please open an Issue on the top.
 We thank you for your participation in this Linux Basics workshop. 
 
+## NOTE
+This is completely optional. You can do this at your spare time after the workshop or during the workshop.
+Do note if you want to work on this during the workshop, make sure you install Oracle VirtualBox and Vagrant. Instructions to download are at the bottom. 
+
 ## Computer Requirements
 Participants must bring a laptop with:
 - [ ] Windows, Linux, or compatible macOS
