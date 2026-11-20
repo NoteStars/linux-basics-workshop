@@ -1,16 +1,15 @@
 # linux-basics-workshop
 Start your own Linux VM and play with it! This Vagrantfile would help you start own your VM via Oracle VirtualBox. 
 
-## Cloning this Repository (No-Git Option)
+## Cloning this Repository
 
 Follow these instructions to download the workshop files onto your computer. 
 
-1. Open this GitHub repository in your web browser.
-2. Click the green **Code** button near the top of the repository.
-3. Select **Download ZIP**.
-4. Once downloaded, locate the ZIP file in your Downloads folder.
-5. Extract the ZIP file.
-6. Open the extracted `linux-basics-workshop` folder.
+1. Click the green **Code** button near the top of the repository.
+2. Select **Download ZIP**.
+3. Once downloaded, locate the ZIP file in your Downloads folder.
+4. Extract the ZIP file.
+5. Open the extracted `linux-basics-workshop` folder.
 
 ## README
 This GitHub repository is a work in progress and considered **BETA.** Please do not expect everything to work out of the box. If you have any issues, please open an Issue on the top.
