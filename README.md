@@ -17,7 +17,7 @@ We thank you for your participation in this Linux Basics workshop.
 
 ## NOTE
 This is completely optional. You can do this at your spare time after the workshop or during the workshop.
-Do note if you want to work on this during the workshop, make sure you install Oracle VirtualBox and Vagrant. Instructions to download are at the bottom. 
+Do note if you want to work on this during the workshop, make sure you install Oracle VirtualBox and Vagrant. Instructions to download are at `exercises/0-setup`.
 
 ## Computer Requirements
 Participants must bring a laptop with:
