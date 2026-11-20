@@ -4,3 +4,20 @@ Start your own Linux VM and play with it! This Vagrantfile would help you start 
 ## README
 This GitHub repository is a work in progress and considered **BETA.** Please do not expect everything to work out of the box. If you have any issues, please open an Issue on the top.
 We thank you for your participation in this Linux Basics workshop. 
+
+## Computer Requirements
+Participants must bring a laptop with:
+- [ ] Windows, Linux, or compatible macOS
+- [ ] 8 GB RAM minimum (16 GB recommended)
+- [ ] At least 30 GB free storage
+- [ ] Intel or AMD 64-bit processor (for the standard VM)
+- [ ] Hardware virtualization enabled
+- [ ] Oracle VirtualBox installed
+- [ ] Vagrant installed
+- [ ] Internet connection for initial setup
+
+Virtual machine configuration
+- Ubuntu Server 24.04 LTS
+- 4 GB RAM
+- 2 CPU cores
+- Ubuntu user with sudo privileges
