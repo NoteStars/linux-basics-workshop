@@ -8,7 +8,7 @@
 * `vagrant halt` Shutdown the virtual machine.
 * `vagrant destroy` - Delete the virtual machine. 
 
-### Permission and Ownership Issues
+### Troubleshooting ONLY: Permission and Ownership Issues
 
 TL;DR Check if you ran the script on `0-setup` correctly.
 People who are on **Linux** -> uses file ownership and permissions to control who can access, modify, and execute files.
