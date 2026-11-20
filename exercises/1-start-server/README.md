@@ -27,3 +27,17 @@ sudo chown -R "$USER:$(id -gn)" ~/linux-basics-workshop
 
 Important!
 Avoid running Git or Vagrant commands with **sudo** unless explicitly required.
+
+### Your Challenge 
+* Make a new directory: Make a new directory called `my-server`.
+* Change the directory into my-server.
+* Print the current directory. 
+* Create a new sub-folder called `subfolder-1`, `subfolder-2` and `subfolder-3`
+* List the directory and change the directory into `subfolder-1`
+* Go back up a parent directory.
+* Create a file named `hello.txt` and put it into `subfolder-2`
+* Edit the file named `hello.txt` and put "Hello World!"
+* Once you saved the text file and exited out, display the contents of the file using `cat`.
+* Copy the file and name the new file `goodbye.txt`
+* Remove the file named `hello.txt`
+* Go back to the home directory. 
