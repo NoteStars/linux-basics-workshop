@@ -47,7 +47,7 @@ Follow the instructions for your Linux distribution.
 ### 1. Install VirtualBox
 
 1. Visit [VirtualBox Downloads](https://www.virtualbox.org/wiki/Downloads).
-2. Download the Windows installer.
+2. Download the Windows installer. (Windows hosts)
 3. Open the installer.
 4. Follow the installation wizard.
 5. Restart your computer if prompted.
