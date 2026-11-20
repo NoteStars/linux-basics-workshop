@@ -1,5 +1,5 @@
 
-# Repository Permissions Setup
+## Repository Permissions Setup
 
 These scripts configure repository permissions for your operating system.
 
