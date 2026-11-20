@@ -108,3 +108,45 @@ These scripts configure repository permissions for your operating system.
 
    ```bash
    chmod +x repo-permissions-linux-macos.sh
+   ```
+
+4. Run the script:
+
+   ```bash
+   ./repo-permissions-linux-macos.sh
+   ```
+
+</details>
+
+<details>
+<summary>Windows (PowerShell)</summary>
+
+**Script:** `set-windows-permissions.ps1`
+
+**How to run the script:**
+
+1. Open Windows PowerShell.
+2. Navigate to the repository directory:
+
+   ```powershell
+   cd path\to\your\repository
+   ```
+
+3. Run the script:
+
+   ```powershell
+   .\set-windows-permissions.ps1
+   ```
+
+**If script execution is blocked**, run:
+
+   ```powershell
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+   ```
+
+Then execute the script again.
+
+</details>
+
+**Note:** Linux / macOS uses `chown` to change ownership, while Windows uses `icacls` to configure file permissions.
+
