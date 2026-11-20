@@ -95,16 +95,16 @@ You are now ready to start the workshop.
 
 These scripts configure repository permissions for your operating system.
 
-## Available Scripts
-
-| Script | Operating System |
-|---|---|
-| `repo-permissions-linux-macos.sh` | Linux or macOS |
-| `set-windows-permissions.ps1` | Windows |
-
 <details>
-<summary>Linux</summary>
+<summary>Linux / macOS</summary>
 
-```bash
-chmod +x repo-permissions-linux-macos.sh
-./repo-permissions-linux-macos
+**Script:** `repo-permissions-linux-macos.sh`
+
+**How to run the script:**
+
+1. Open your terminal.
+2. Navigate to the repository directory.
+3. Make the script executable:
+
+   ```bash
+   chmod +x repo-permissions-linux-macos.sh
